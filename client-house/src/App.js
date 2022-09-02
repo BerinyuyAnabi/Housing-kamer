@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import HomePage from './pages/Home';
 
 function App() {
   return (
     <div className="App">
-      <h1>helloworld</h1>
+      <HomePage />
     </div>
   );
 }
