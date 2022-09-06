@@ -1,12 +1,14 @@
 // import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import HomePage from './pages/Home';
+import Pages from './pages/Pages';
+import React from "react";
+
 
 function App() {
   return (
     <div className="App">
-      <HomePage />
+      <Pages />
     </div>
   );
 }
