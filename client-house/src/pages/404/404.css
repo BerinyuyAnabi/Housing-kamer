@@ -1,0 +1,11 @@
+.pagenotfound__container{
+    background-color: aqua;
+    width: 80%;
+    margin: 30px auto;
+    text-align: center
+}
+
+.pagenotfound__container h1{
+  font-style: 30px;
+  color: rgb(126, 26, 26);
+}
