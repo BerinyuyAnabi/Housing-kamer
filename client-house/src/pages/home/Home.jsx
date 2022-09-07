@@ -6,14 +6,11 @@ import React from "react"
 
 const Home = () => {
     return (
-        <>
-            <Header />
-            {/* <h1>Home Page</h1> */}
+        <div>        
+            <h1>Home Page</h1>
             {/* <Footer /> */}
-        </>
+        </div>
     )
 }
 
 export default Home
-
-// exact component={Home}
