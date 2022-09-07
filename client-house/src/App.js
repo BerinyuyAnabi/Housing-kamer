@@ -7,7 +7,7 @@ import React from "react";
 
 
 import "./App.css";
-import Navigation from "./Components/Naviga
+import Navigation from "./components/Navigation"
 
 function App() {
   return (

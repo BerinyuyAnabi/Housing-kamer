@@ -9,7 +9,7 @@ const Pages= ()=> {
    <Router>
    <Header/>
         <Routes>
-          <Route  path='/' exact component={Home}/>
+          <Route  path="/"  element ={<Home />}/>
         </Routes>
         <Footer />
     </Router>
