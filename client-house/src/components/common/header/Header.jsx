@@ -2,7 +2,7 @@
 import React,{useState} from 'react'
 import "./header.css"
 import { Link } from 'react-router-dom'
-import {nav} from "../../data/Data"
+import {nav} from "../../data/BodyItem"
 
 
 const Header = () => {

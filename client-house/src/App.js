@@ -1,5 +1,5 @@
 import "./App.css";
-import Pages from "./pages/Pages";
+import Pages from "./components/pages/Pages";
 import React from "react";
 
 import "./App.css";
