@@ -2,10 +2,16 @@
     background-color: aqua;
     width: 80%;
     margin: 30px auto;
-    text-align: center
+    text-align: center;
+    border-radius: 25px;
+  color: rgb(126, 26, 26);
 }
 
 .pagenotfound__container h1{
-  font-style: 30px;
-  color: rgb(126, 26, 26);
+  font-style: 60px;
+}
+
+.pagenotfound__container p{
+    opacity: 75;
+    font-style: 60px;
 }
