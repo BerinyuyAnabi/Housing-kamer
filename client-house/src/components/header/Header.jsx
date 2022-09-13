@@ -24,9 +24,9 @@ const Header = () => {
           </ul>
         </div>
         <div className="button flex">
-          <h4>
+          <h5>
             <span>2</span>My list
-            </h4>
+            </h5>
             <button className="btn1">
               <i className="fa fa-sign-out"></i> Sign In
             </button>
