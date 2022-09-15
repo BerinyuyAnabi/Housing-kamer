@@ -9,13 +9,17 @@ import Services from './services/Services';
 import Price from './pricing/Price'
 import Blog from './blog/Blog'
 import Contact from './contact/Contact';
+import Login from '../login/Login'
+import Register from '../register/Register'
 
 const Pages= ()=> {
   return (<>
    <Router>
         <Header/>
         <Routes>
-          <Route  path="*"  element ={<PageNotFound />}/>
+          <Route path='/login' element={<Login/>}/>
+          <Route path='/register' element={<Register/>}/>
+          <Route  path="*" exact element ={<PageNotFound />}/>
           <Route  path="/"  element ={<Home />}/>
           <Route  path="/about"  element ={<About/>}/>
           <Route path="/services"  exact element ={<Services/>}/>
