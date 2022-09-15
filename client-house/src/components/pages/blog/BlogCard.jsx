@@ -1,6 +1,6 @@
 
 import React from "react"
-import { list } from "../../components/data/Data"
+import { list } from "../../data/Data"
 
 const BlogCard = () => {
   return (

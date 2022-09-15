@@ -1,5 +1,5 @@
 import React from "react"
-import { price } from "../../components/data/Data";
+import { price } from "../../data/Data";
 
 
 const PriceCard = () => {
