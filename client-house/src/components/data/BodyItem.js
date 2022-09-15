@@ -19,6 +19,10 @@ export const nav = [
     text: "pricing",
     path: "/pricing",
   },
+  {
+    text: "contact",
+    path: "/contact",
+  },
 ];
 
 export const footer = [
