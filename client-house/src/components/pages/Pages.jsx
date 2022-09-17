@@ -12,7 +12,7 @@ const Pages= ()=> {
         <Header/>
         <Routes>
           <Route  path="*"  element ={<PageNotFound />}/>
-          <Route  path="/"  element ={<Home />}/>
+          <Route exact path="/"  element ={<Home />}/>
           <Route  path="/about"  element ={<About />}/>
         </Routes>
         <Footer />

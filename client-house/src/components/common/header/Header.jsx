@@ -12,7 +12,7 @@ const Header = () => {
 <header>
     <div className="container flex">
         <div className="logo">
-          <img src="./img/logo.png" alt="logo" />
+          <img src="./images/logo.png" alt="logo" />
         </div>
         <div className="nav">
           <ul className={navlist ? "small": "flex"}>
@@ -24,7 +24,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="button flex">
-          <h4>
+            <h4>
             <span>2</span>My list
             </h4>
             <button className="btn1">
@@ -34,7 +34,7 @@ const Header = () => {
         
          <div className="toggle">
           <button onClick={()=>setnavlist(!navlist) }>
-            <i className="fa fa-bars"></i>
+              {navlist?<i class="fa fa-times"></i>:<i className="fa fa-bars"></i>}
           </button>
         </div> 
     </div>
