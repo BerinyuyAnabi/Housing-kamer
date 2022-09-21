@@ -1,15 +1,9 @@
 header{
     background-color: #fff;
-<<<<<<< HEAD
-    overflow: hidden;
     height: 15vh;
-    box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
-    /* padding: 15px 0; */
-=======
-    height: 11vh;
+    box-sizing: border-box;
     box-shadow: 0 5px rgb(0 22 84/10%);
-    padding: 15px 0;
->>>>>>> b294d1675f96fcee9bf5a981cfa626de5f22dbdc
+    /* padding: 15px 0; */
     position: sticky;
     top: 0;
     z-index: 999;

@@ -17,11 +17,6 @@ const Pages= ()=> {
    <Router>
         <Header/>
         <Routes>
-<<<<<<< HEAD
-          <Route  path="*"  element ={<PageNotFound />}/>
-          <Route exact path="/"  element ={<Home />}/>
-          <Route  path="/about"  element ={<About />}/>
-=======
           <Route path='/login' element={<Login/>}/>
           <Route path='/register' element={<Register/>}/>
           <Route  path="*" exact element ={<PageNotFound />}/>
@@ -32,9 +27,8 @@ const Pages= ()=> {
           <Route path="/blog"  exact element ={<Blog/>}/>
           <Route path="/contact"  exact element ={<Contact/>}/>
 
->>>>>>> b294d1675f96fcee9bf5a981cfa626de5f22dbdc
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
     </Router>
   </>) 
   

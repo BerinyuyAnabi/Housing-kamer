@@ -26,13 +26,9 @@ const Header = () => {
           </ul>
         </div>
         <div className="button flex">
-<<<<<<< HEAD
             <h4>
-=======
-          <h5>
->>>>>>> b294d1675f96fcee9bf5a981cfa626de5f22dbdc
             <span>2</span>My list
-            </h5>
+            </h4>
             {/* <a href='/login'> */}
             <Link to ='/login'>
             <button className="btn1"> 
