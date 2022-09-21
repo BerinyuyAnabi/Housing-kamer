@@ -3,12 +3,14 @@ import React,{useState} from 'react'
 import "./header.css"
 import { Link } from 'react-router-dom'
 import {nav} from "../../data/BodyItem"
+// import { BrowserRouter as Router, Link} from 'react-router-dom';
+// import Login from '../../login/Login'
 
 
 const Header = () => {
   const [navlist, setnavlist]= useState(false)
   return (
-    <>
+    <> 
 <header>
     <div className="container flex">
         <div className="logo">
@@ -24,12 +26,18 @@ const Header = () => {
           </ul>
         </div>
         <div className="button flex">
+          <h5>
             <h4>
+
             <span>2</span>My list
-            </h4>
-            <button className="btn1">
+            </h5>
+            {/* <a href='/login'> */}
+            <Link to ='/login'>
+            <button className="btn1"> 
               <i className="fa fa-sign-out"></i> Sign In
             </button>
+            </Link>
+            {/* </a> */}
         </div>
         
          <div className="toggle">
@@ -39,6 +47,7 @@ const Header = () => {
         </div> 
     </div>
 </header>
+
     </>
   )
 }
