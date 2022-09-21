@@ -14,7 +14,7 @@ const Header = () => {
 <header>
     <div className="container flex">
         <div className="logo">
-          <img src="./img/logo.png" alt="logo" />
+          <img src="./images/logo.png" alt="logo" />
         </div>
         <div className="nav">
           <ul className={navlist ? "small": "flex"}>
@@ -27,6 +27,8 @@ const Header = () => {
         </div>
         <div className="button flex">
           <h5>
+            <h4>
+
             <span>2</span>My list
             </h5>
             {/* <a href='/login'> */}
@@ -40,7 +42,7 @@ const Header = () => {
         
          <div className="toggle">
           <button onClick={()=>setnavlist(!navlist) }>
-            <i className="fa fa-bars"></i>
+              {navlist?<i class="fa fa-times"></i>:<i className="fa fa-bars"></i>}
           </button>
         </div> 
     </div>
