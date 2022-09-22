@@ -1,7 +1,11 @@
-import React from "react"
+import React, { useState } from "react";
 import { list } from "../../data/Data"
+import Modal from "../../modal/Modal";
+
 
 const RecentCard = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+
   return (
     <>
       <div className='content grid3 mtop'>
@@ -24,13 +28,19 @@ const RecentCard = () => {
               </div>
               <div className='button flex'>
                 <div>
-                  <button className='btn2'>{price}</button> <label htmlFor=''>/sqft</label>
+                  <button className="btn2 openModalBtn"
+                    onClick={() => {
+                      setModalOpen(true);
+                    }}>{price}</button>
+        {modalOpen && <Modal setOpenModal={setModalOpen} />}
+
                 </div>
                 <span>{type}</span>
               </div>
             </div>
           )
         })}
+
       </div>
     </>
   )

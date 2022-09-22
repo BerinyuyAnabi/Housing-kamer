@@ -14,6 +14,7 @@ const About = () => {
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum quae iste corrupti nobis dolor? Eum iure ea consequuntur ullam amet nulla odio. Minus perspiciatis debitis, quasi ratione non quisquam error expedita commodi officia nulla laboriosam libero et vitae facere recusandae ullam nemo. Vel, quasi impedit. Corporis fugit deserunt repellat? Eos.</p>
                 <img src= {image} alt="" />
             </div>
+            <button className="but">More About Us</button>
         </div>
     </>
     )
