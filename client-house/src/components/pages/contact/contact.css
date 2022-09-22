@@ -7,12 +7,16 @@
     border-radius: 5px;
     margin-bottom: 20px;
   }
+ .contact .container {
+    box-shadow: 50px;
+ }
   .contact input {
     margin-bottom: 20px;
     margin-right: 10px;
   }
   .contact form {
     padding: 30px;
+  
   }
   @media screen and (max-width: 768px) {
     .contact h4 {

@@ -1,5 +1,6 @@
 import React from "react"
-import { price } from "../../data/Data"
+import { price } from "../../data/Data";
+
 
 const PriceCard = () => {
   return (
@@ -11,9 +12,9 @@ const PriceCard = () => {
               <button className='btn3'>{item.best}</button>
             </div>
             <h3>{item.plan}</h3>
+            
             <h1>
-              <span>$</span>
-              {item.price}
+              <span> {item.price} frs</span>
             </h1>
             <p>{item.ptext}</p>
 

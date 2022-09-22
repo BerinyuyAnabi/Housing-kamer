@@ -133,50 +133,38 @@ export const awards = [
 export const location = [
   {
     id: 1,
-    name: "New Orleans, Louisiana",
-    Villas: "12 Villas",
+    name: "Bastos, Yaounde",
     Apartments: "10 Apartments",
-    Offices: "07 Offices",
     cover: "./images/location/city-1.png",
   },
   {
     id: 2,
-    name: "Jerrsy, United State",
-    Villas: "12 Villas",
+    name: "Upstation,Bamenda",
     Apartments: "10 Apartments",
-    Offices: "07 Offices",
     cover: "./images/location/city-2.png",
   },
   {
     id: 3,
-    name: "Liverpool, London",
-    Villas: "12 Villas",
+    name: "Malingo,Buea",
     Apartments: " 10 Apartments",
-    Offices: "07 Offices",
     cover: "./images/location/city-3.png",
   },
   {
     id: 4,
-    name: "NewYork, United States",
-    Villas: "12 Villas",
+    name: "DownBEach,Limbe",
     Apartments: " 10 Apartments",
-    Offices: "07 Offices",
     cover: "./images/location/city-4.png",
   },
   {
     id: 5,
-    name: "Montreal, Canada",
-    Villas: "12 Villas",
+    name: "Bonamoussadi,Douala",
     Apartments: " 10 Apartments",
-    Offices: "07 Offices",
     cover: "./images/location/city-5.png",
   },
   {
     id: 6,
-    name: "California, USA",
-    Villas: "12 Villas",
+    name: "Mayor Street,Buea",
     Apartments: " 10 Apartments",
-    Offices: "07 Offices",
     cover: "./images/location/city-6.png",
   },
 ];
@@ -184,8 +172,8 @@ export const team = [
   {
     list: "50",
     cover: "../images/customer/team-1.jpg",
-    address: "Liverpool, Canada",
-    name: "Sargam S. Singh",
+    address: "Yaonde, Camerooon",
+    name: "Berinyuy Vanessa",
     icon: [
       <i class="fa-brands fa-facebook-f"></i>,
       <i class="fa-brands fa-linkedin"></i>,
@@ -196,8 +184,8 @@ export const team = [
   {
     list: "70",
     cover: "../images/customer/team-2.jpg",
-    address: "Montreal, Canada",
-    name: "Harijeet M. Siller",
+    address: "Bamenda, Cameroon",
+    name: "Ngi Gordon",
     icon: [
       <i class="fa-brands fa-facebook-f"></i>,
       <i class="fa-brands fa-linkedin"></i>,
@@ -205,138 +193,94 @@ export const team = [
       <i class="fa-brands fa-instagram"></i>,
     ],
   },
-  {
-    list: "80",
-    cover: "../images/customer/team-3.jpg",
-    address: "Denever, USA",
-    name: "Anna K. Young",
-    icon: [
-      <i class="fa-brands fa-facebook-f"></i>,
-      <i class="fa-brands fa-linkedin"></i>,
-      <i class="fa-brands fa-twitter"></i>,
-      <i class="fa-brands fa-instagram"></i>,
-    ],
-  },
-  {
-    list: "51",
-    cover: "../images/customer/team-4.jpg",
-    address: "2272 Briarwood Drive",
-    name: "Michael P. Grimaldo",
-    icon: [
-      <i class="fa-brands fa-facebook-f"></i>,
-      <i class="fa-brands fa-linkedin"></i>,
-      <i class="fa-brands fa-twitter"></i>,
-      <i class="fa-brands fa-instagram"></i>,
-    ],
-  },
-  {
-    list: "42",
-    cover: "../images/customer/team-5.jpg",
-    address: "2272 Briarwood Drive",
-    name: "Michael P. Grimaldo",
-    icon: [
-      <i class="fa-brands fa-facebook-f"></i>,
-      <i class="fa-brands fa-linkedin"></i>,
-      <i class="fa-brands fa-twitter"></i>,
-      <i class="fa-brands fa-instagram"></i>,
-    ],
-  },
-  {
-    list: "38",
-    cover: "../images/customer/team-5.jpg",
-    address: "Montreal, USA",
-    name: "Adam K. Jollio",
-    icon: [
-      <i class="fa-brands fa-facebook-f"></i>,
-      <i class="fa-brands fa-linkedin"></i>,
-      <i class="fa-brands fa-twitter"></i>,
-      <i class="fa-brands fa-instagram"></i>,
-    ],
-  },
+  
 ];
 export const price = [
   {
     plan: "Basic",
-    price: "29",
+    price: "29,000",
     ptext: "per user, per month",
     list: [
       {
         icon: <i class="fa-solid fa-check"></i>,
-        text: "99.5% Uptime Guarantee",
+        text: "Gate for security",
       },
       {
         icon: <i class="fa-solid fa-check"></i>,
-        text: "120GB CDN Bandwidth",
+        text: "Internal Toilet",
       },
       {
         icon: <i class="fa-solid fa-check"></i>,
-        text: "5GB Cloud Storage",
+        text: "Running Pipe-borne Water",
       },
       {
         change: "color",
         icon: <i class="fa-solid fa-x"></i>,
-        text: "Personal Help Support",
+        text: "Grocery Store",
       },
       {
         change: "color",
         icon: <i class="fa-solid fa-x"></i>,
-        text: "Enterprise SLA",
+        text: "Laundry and Sunning space",
       },
     ],
   },
   {
     best: "Best Value",
     plan: "Standard",
-    price: "49",
+    price: "49,000",
     ptext: "per user, per month",
     list: [
       {
         icon: <i class="fa-solid fa-check"></i>,
-        text: "99.5% Uptime Guarantee",
+        text: "Gate with guard",
       },
       {
         icon: <i class="fa-solid fa-check"></i>,
-        text: "150GB CDN Bandwidth",
+        text: "Internal Toilet",
       },
       {
         icon: <i class="fa-solid fa-check"></i>,
-        text: "10GB Cloud Storage",
-      },
-      {
-        icon: <i class="fa-solid fa-check"></i>,
-        text: "Personal Help Support",
+        text: "Running Pipe-borne Water",
       },
       {
         change: "color",
         icon: <i class="fa-solid fa-x"></i>,
-        text: "Enterprise SLA",
+        text: "Grocery Store",
+      },
+      {
+        change: "color",
+        icon: <i class="fa-solid fa-x"></i>,
+        text: "Laundry and Sunning space",
       },
     ],
   },
   {
     plan: "Platinum",
-    price: "79",
+    price: "79000",
     ptext: "2 user, per month",
     list: [
       {
         icon: <i class="fa-solid fa-check"></i>,
-        text: "100% Uptime Guarantee",
+        text: "Gate with guard",
       },
       {
         icon: <i class="fa-solid fa-check"></i>,
-        text: "200GB CDN Bandwidth",
+        text: "Internal Toilet",
       },
       {
         icon: <i class="fa-solid fa-check"></i>,
-        text: "20GB Cloud Storage",
+        text: "Running Pipe-borne Water",
       },
       {
-        icon: <i class="fa-solid fa-check"></i>,
-        text: "Personal Help Support",
+        change: "color",
+        icon: <i class="fa-solid fa-x"></i>,
+        text: "Grocery Store",
       },
       {
-        icon: <i class="fa-solid fa-check"></i>,
-        text: "Enterprise SLA",
+        change: "color",
+        icon: <i class="fa-solid fa-x"></i>,
+        text: "Laundry and Sunning space",
       },
     ],
   },

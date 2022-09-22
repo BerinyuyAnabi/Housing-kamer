@@ -10,7 +10,7 @@ const Team = () => {
         <div className='container'>
           <Heading title='Our Featured Agents' subtitle='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.' />
 
-          <div className='content mtop grid3'>
+          <div className='content mtop grid2'>
             {team.map((val, index) => (
               <div className='box' key={index}>
                 <button className='btn3'>{val.list} Listings</button>
@@ -29,7 +29,7 @@ const Team = () => {
                     ))}
                   </ul>
                   <div className='button flex'>
-                    <button>
+                    <button >
                       <i className='fa fa-envelope'></i>
                       Message
                     </button>
