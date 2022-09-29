@@ -3,6 +3,7 @@ import React from "react"
 import './login.css'
 import { Link } from "react-router-dom"
 
+
 const Login = () => {
   return (
     <>
@@ -27,7 +28,7 @@ const Login = () => {
                 placeholder="Enter password"
               />
             </div>
-            <div className="d-grid gap-2 mt-3 flex">
+            <div className="d-grid gap-2 mt-3 flex button">
               <button type="submit" className="btn btn-primary">
                 Submit
               </button>

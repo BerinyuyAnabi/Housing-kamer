@@ -319,4 +319,72 @@ export const footer = [
       { list: "Changelog" },
     ],
   },
+  
 ];
+export const detailedList = [
+  {
+    id: 1,
+    cover: "../images/list/glory.jpeg",
+    name: "Glory City",
+    location: "Down quarter Bambili",
+    category: "For Rent",
+    price: "180,000Frs/yr",
+    type: "Apartment",
+    details: ' lorem ipfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+
+  },
+  {
+    id: 2,
+    cover: "../images/list/footprint.jpeg",
+    name: "Footprint residence",
+    location: "Beside Edma house",
+    category: "For Sale",
+    price: "240,000Frs/yr",
+    type: "Self content",
+    details: ' lorem ipfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+  
+  },
+  {
+    id: 3,
+    cover: "../images/list/edma.jpg",
+    name: "Edma house",
+    location: "Opposite presberian church",
+    category: "For Rent",
+    price: "200,000frs/yr",
+    type: "Single Room",
+    details: ' lorem ipfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+
+  },
+  {
+    id: 4,
+    cover: "../images/list/p-4.png",
+    name: "A&A hostel",
+    location: "Down Quarters behind Presbiterian church",
+    category: "For Rents",
+    price: "300,000Frs/yr",
+    type: "Self Content Rooms",
+    details: ' lorem ipfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+
+  },
+  {
+    id: 5,
+    cover: "../images/list/p-5.png",
+    name: "Mami Anna hostel",
+    location: "up Qauatier beside mami Anna",
+    category: "For Rent",
+    price: "400,000Frs/yr",
+    type: "Single Room/studio",
+    details: ' lorem ipfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+
+  },
+  {
+    id: 6,
+    cover: "../images/list/p-6.png",
+    name: "Fiscie Foundation",
+    location: "Down Quarter",
+    category: "For Rent",
+    price: "240000Frs/yr",
+    type: "Apartment/studio",
+    details: ' lorem ipfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+
+  }]
