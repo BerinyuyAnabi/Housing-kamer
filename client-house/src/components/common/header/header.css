@@ -1,22 +1,9 @@
 header{
     background-color: #fff;
-<<<<<<< HEAD
-=======
-
-    height: 11vh;
-    box-shadow: 0 5px rgb(0 22 84/10%);
-    padding: 15px 0;
-
-    overflow: hidden;
->>>>>>> 1a15b2a7eb776944b09add9e8e87ccb0173c80ba
     height: 15vh;
     box-sizing: border-box;
     box-shadow: 0 5px rgb(0 22 84/10%);
     /* padding: 15px 0; */
-<<<<<<< HEAD
-=======
-
->>>>>>> 1a15b2a7eb776944b09add9e8e87ccb0173c80ba
     position: sticky;
     top: 0;
     z-index: 999;
@@ -81,7 +68,7 @@ header .toggle{
   }
 header .small{
     position: absolute;
-    top: 11vh;
+    top: 14vh;
     left: 0;
     width: 100%;
     background-color: #27ae60;
@@ -89,7 +76,7 @@ header .small{
 }
 header li a{
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: #fff;
 }
 }

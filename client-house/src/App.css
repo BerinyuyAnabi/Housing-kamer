@@ -4,7 +4,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  width: 100%;
 }
 
 body {
@@ -109,11 +108,13 @@ h4 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
 img {
-  width: 100%;
-  height: 100%;
+  width: fit-content;
+  height: fit-content;
   cursor: pointer;
 }
 
@@ -186,13 +187,16 @@ img {
 .mb {
   margin-bottom: 80px;
 }
+/* for the recent component */
 
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width: 400px) {
 
   .grid4,
   .grid3,
   .grid5 {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+   
   }
 
   .heading {
@@ -208,4 +212,14 @@ img {
   .back {
     height: 30vh;
   }
+}
+
+@media screen and (max-width: 800px)
+{
+  .grid4,
+    .grid3,
+    .grid5 {
+      grid-template-columns: repeat(2, 1fr);
+  
+    }
 }

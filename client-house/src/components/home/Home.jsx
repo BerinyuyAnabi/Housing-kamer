@@ -10,13 +10,13 @@ import Team from "./team/Team"
 const Home = () => {
   return (
     <>
-      {/* <Hero /> */}
+      <Hero />
       <Featured />
       <Recent />
-      {/* <Awards />
-      <Location />
+      <Awards />
+      {/* <Location /> */}
       <Team />
-      <Price />  */}
+      <Price /> 
     </>
   )
 }

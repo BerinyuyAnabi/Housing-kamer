@@ -10,7 +10,7 @@ const RecentCard = () => {
           return (
             <div className='box shadow' key={index}>
               <div className='img'>
-                <img src={cover} alt='' />
+                <img src={cover} alt=''  />
               </div>
               <div className='text'>
                 <div className='category flex'>
@@ -24,7 +24,7 @@ const RecentCard = () => {
               </div>
               <div className='button flex'>
                 <div>
-                  <button className='btn2'>{price}</button> <label htmlFor=''>/sqft</label>
+                  <button className='btn2'>{price}</button> 
                 </div>
                 <span>{type}</span>
               </div>
