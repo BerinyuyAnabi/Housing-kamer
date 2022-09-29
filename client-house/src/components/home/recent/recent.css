@@ -23,18 +23,10 @@
   border-top: 1px solid #e4e8f3;
   padding: 10px 30px;
 }
-
-.grid3.box {
-  width: 250px;
-}
-
 .recent .img{
   height: 250px;
   width: 350px;
-  
 }
-
-img{
-  height: auto;
-  width: fit-content;
+.recent h4:hover{
+color: green;
 }

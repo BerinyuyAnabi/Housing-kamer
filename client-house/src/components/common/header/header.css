@@ -1,5 +1,14 @@
 header{
     background-color: #fff;
+<<<<<<< HEAD
+=======
+
+    height: 11vh;
+    box-shadow: 0 5px rgb(0 22 84/10%);
+    padding: 15px 0;
+
+    overflow: hidden;
+>>>>>>> e44188ff9403c89aa43af1ca0673b91e37985bfa
     height: 15vh;
     box-sizing: border-box;
     box-shadow: 0 5px rgb(0 22 84/10%);

@@ -9,8 +9,15 @@ h1,h6{
     color: green;
 }
 
-img{
-height: 100px;
-width: 100%;
-
+.description>img{
+height: 200px;
+width: 80%;
+}
+.but{
+    margin-bottom: 50px;
+    height: 60px;
+    width: 120px;
+    border-radius: 15px;
+    padding: 10px 19px;
+    font-weight: bold;
 }

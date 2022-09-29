@@ -1,13 +1,19 @@
 import React from "react"
-import './services.css'
+import Heading from "../../common/Heading"
+import "./services.css"
+import FeaturedCard from "./FeaturedCard"
 
-const Services = () => {
-    return (
-        <div>        
-            <h1>Services Page</h1>
-        
+const Featured = () => {
+  return (
+    <>
+      <section className='featured background'>
+        <div className='container'>
+          <Heading title='Featured Property Types' subtitle='Find All Type of Property.' />
+          <FeaturedCard />
         </div>
-    )
+      </section>
+    </>
+  )
 }
 
-export default Services
+export default Featured
