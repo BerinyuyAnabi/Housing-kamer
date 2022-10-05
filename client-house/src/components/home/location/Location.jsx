@@ -8,19 +8,19 @@ const Location = () => {
     <>
       <section className='location padding'>
         <div className='container'>
-          <Heading title='Explore By Location' subtitle='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.' />
+          <Heading title='Explore By Location available hostel' subtitle="Stress free accommodation search in Cameroon . Whether it’s Douala, Yaounde, Buea, Limbe etc, we can help you find your dream home in Cameroon. Click on each town's image below to view available properties." />
 
           <div className='content grid3 mtop'>
             {location.map((item, index) => (
               <div className='box' key={index}>
-                <img src={item.cover} alt='' />
+                <img src={item.cover} alt='item.name' />
                 <div className='overlay'>
                   <h5>{item.name}</h5>
-                  <p>
+                  {/* <p>
                     <label>{item.Villas}</label>
                     <label>{item.Offices}</label>
                     <label>{item.Apartments}</label>
-                  </p>
+                  </p> */}
                 </div>
               </div>
             ))}

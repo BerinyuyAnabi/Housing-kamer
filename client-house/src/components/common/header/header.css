@@ -1,91 +1,84 @@
-header{
+header {
     background-color: #fff;
-<<<<<<< HEAD
-=======
-
-    height: 11vh;
-    box-shadow: 0 5px rgb(0 22 84/10%);
-    padding: 15px 0;
-
-    overflow: hidden;
->>>>>>> e44188ff9403c89aa43af1ca0673b91e37985bfa
     height: 15vh;
-    box-sizing: border-box;
-    box-shadow: 0 5px rgb(0 22 84/10%);
-    /* padding: 15px 0; */
+    box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+    padding: 15px 0;
     position: sticky;
     top: 0;
-    z-index: 999;
+    z-index: 99999;
 }
 
-header img{
-    width: 100px;
- }
+.logo{
+    height: 15vh;
+}
 
-header a{
+header img {
+    width: 170px;
+}
+
+header a {
     margin-left: 30px;
     transition: 0.5s;
     font-weight: 500;
 }
 
-header a:hover{ 
+header a:hover {
     color: #27ae60;
 }
-header span{
-    /* width: 5px; */
-    padding: 0 6px;
-    background-color: #27ae60;
-    border-radius: 50%;
-    color: #fff;
-    margin-left: 10px;
-    margin-right: 6px;
-    font-weight: 400px;
+
+header span {
+    width: auto;
+    padding: 0px 6px;
+    background: #27ae60;
+    border-radius: 50px;
+    color: #ffffff;
+    margin-right: 4px;
+    font-weight: 400;
 }
 
-header h4{
+header h4 {
     font-weight: 500;
     margin-right: 20px;
 }
-header .toggle{
+
+header .toggle {
     display: none;
 }
-.btn1{
-    height: 55px;
-    padding: 5px;
-    border-radius: 5px;
-}
-@media screen and (max-width:768px){
-  header{
-      padding: 0;
-  }  
-  header img{
-    width: 80px;
-    height: auto;
-      margin-top: 10px;
-      margin-bottom: 30px;
-  }
-  header .button{
-      display: none;
-  }
-  header .nav .flex{
-      display: none;
-  }
-header .toggle{
-      display: block;
-      transition:1s ease-out;
-      /* margin-top: -25px; */
-  }
-header .small{
-    position: absolute;
-    top: 14vh;
-    left: 0;
-    width: 100%;
-    background-color: #27ae60;
-    padding: 30px;
-}
-header li a{
-    display: inline-block;
-    margin-bottom: 30px;
-    color: #fff;
-}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 0;
+    }
+
+    header img {
+        margin-top: 30px;
+    }
+
+    header .button {
+        display: none;
+    }
+
+    header .nav .flex {
+        display: none;
+    }
+
+    header .toggle {
+        display: block;
+        margin-top: 20px;
+    }
+
+    header .small {
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        width: 100%;
+        background-color: #27ae60;
+        padding: 20px;
+    }
+
+    header li a {
+        display: inline-block;
+        margin-bottom: 20px;
+        color: #fff;
+    }
 }

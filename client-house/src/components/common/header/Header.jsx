@@ -14,7 +14,7 @@ const Header = () => {
           <img src="./images/logo.png" alt="logo" />
         </div>
         <div className="nav">
-          <ul className={navlist ? "small": "flex"}>
+          <ul className={navList ? "small": "flex"}>
             {nav.map((list,index)=>(
               <li key={index}>
                 <Link to= {list.path}>{list.text}</Link>

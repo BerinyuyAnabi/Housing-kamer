@@ -57,54 +57,54 @@ export const list = [
     id: 1,
     cover: "../images/list/glory.jpeg",
     name: "Glory City",
-    location: "Down quarter Bambili",
+    location: "DownQuarter",
     category: "For Rent",
-    price: "180k/yr",
+    price: "180",
     type: "Apartment",
   },
   {
     id: 2,
     cover: "../images/list/joshua.jpeg",
     name: "House of Joshua",
-    location: "At corners Bambili",
+    location: "UpQuarter",
     category: "For rent",
-    price: "240K/yr",
+    price: "240",
     type: "Room",
   },
   {
     id: 3,
     cover: "../images/list/edma.jpg",
     name: "Edma house",
-    location: "Opposite presberian church",
+    location: "DownQuarter",
     category: "For Rent",
-    price: "200K/yr",
+    price: "200",
     type: "Room",
   },
   {
     id: 4,
     cover: "../images/list/ebc.jpg",
     name: "A&A hostel",
-    location: "Down Quarters behind Presbiterian church",
+    location: "UpQuarters",
     category: "For Rents",
-    price: "300K/yr",
+    price: "300",
     type: "1room",
   },
   {
     id: 5,
     cover: "../images/list/footprint.jpeg",
     name: "Mami Anna hostel",
-    location: "up Qauatier beside mami Anna",
+    location: "DownQuarter",
     category: "For Rent",
-    price: "400K/yr",
+    price: "400",
     type: "studio",
   },
   {
     id: 6,
     cover: "../images/list/elisam.jpeg",
     name: "Ellisam",
-    location: "Opposite police",
+    location: "UpQuarter",
     category: "For Rent",
-    price: "240K/yr",
+    price: "240",
     type: "Apartment",
   },
 ];
@@ -133,39 +133,39 @@ export const awards = [
 export const location = [
   {
     id: 1,
-    name: "Bastos, Yaounde",
+    name: "Yaounde",
     Apartments: "10 Apartments",
-    cover: "./images/location/city-1.png",
+    cover: "./images/location/Yaounde.jpg",
   },
   {
     id: 2,
-    name: "Upstation,Bamenda",
+    name: "Bamenda",
     Apartments: "10 Apartments",
-    cover: "./images/location/city-2.png",
+    cover: "./images/location/Bamenda.jpg",
   },
   {
     id: 3,
-    name: "Malingo,Buea",
+    name: "Buea",
     Apartments: " 10 Apartments",
-    cover: "./images/location/city-3.png",
+    cover: "./images/location/Buea.jpg",
   },
   {
     id: 4,
-    name: "DownBEach,Limbe",
+    name: "Tiko",
     Apartments: " 10 Apartments",
-    cover: "./images/location/city-4.png",
+    cover: "./images/location/Tiko.jpg",
   },
   {
     id: 5,
-    name: "Bonamoussadi,Douala",
+    name: "Douala",
     Apartments: " 10 Apartments",
-    cover: "./images/location/city-5.png",
+    cover: "./images/location/Douala.jpg",
   },
   {
     id: 6,
-    name: "Mayor Street,Buea",
+    name: "Kribi",
     Apartments: " 10 Apartments",
-    cover: "./images/location/city-6.png",
+    cover: "./images/location/Kribi.jpg",
   },
 ];
 export const team = [
@@ -185,7 +185,7 @@ export const team = [
     list: "70",
     cover: "../images/customer/team-2.jpg",
     address: "Bamenda, Cameroon",
-    name: "Ngi Gordon",
+    name: "Ngi Nganjo Gordon",
     icon: [
       <i class="fa-brands fa-facebook-f"></i>,
       <i class="fa-brands fa-linkedin"></i>,
@@ -193,7 +193,6 @@ export const team = [
       <i class="fa-brands fa-instagram"></i>,
     ],
   },
-  
 ];
 export const price = [
   {
@@ -319,7 +318,6 @@ export const footer = [
       { list: "Changelog" },
     ],
   },
-  
 ];
 export const detailedList = [
   {
@@ -330,8 +328,8 @@ export const detailedList = [
     category: "For Rent",
     price: "180,000Frs/yr",
     type: "Apartment",
-    details: ' lorem ipfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
-
+    details:
+      " Located in a very quiet yet secured neighborhood, this Gated Stand alone building is the ideal resort you and your family need for your vacation in Bamenda",
   },
   {
     id: 2,
@@ -341,8 +339,8 @@ export const detailedList = [
     category: "For Sale",
     price: "240,000Frs/yr",
     type: "Self content",
-    details: ' lorem ipfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
-  
+    details:
+      "Rooms in this The apartment has 2 bedrooms, 2 toilets, a parlor and a kitchen. There is a discounted amount available for tenants wishing to pay 12 months rent. The monthly rent is 150.000 FCFA and a minimum of 6 months rent is needed but if the tenant decides to pay for 12 months, the amount is reduced to 140.000 FCFA per month.",
   },
   {
     id: 3,
@@ -352,8 +350,8 @@ export const detailedList = [
     category: "For Rent",
     price: "200,000frs/yr",
     type: "Single Room",
-    details: ' lorem ipfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
-
+    details:
+      " lorem ipfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
   },
   {
     id: 4,
@@ -363,8 +361,8 @@ export const detailedList = [
     category: "For Rents",
     price: "300,000Frs/yr",
     type: "Self Content Rooms",
-    details: ' lorem ipfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
-
+    details:
+      " lorem ipfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
   },
   {
     id: 5,
@@ -374,8 +372,8 @@ export const detailedList = [
     category: "For Rent",
     price: "400,000Frs/yr",
     type: "Single Room/studio",
-    details: ' lorem ipfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
-
+    details:
+      " lorem ipfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
   },
   {
     id: 6,
@@ -385,6 +383,7 @@ export const detailedList = [
     category: "For Rent",
     price: "240000Frs/yr",
     type: "Apartment/studio",
-    details: ' lorem ipfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
-
-  }]
+    details:
+      " lorem ipfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+  },
+];
