@@ -34,10 +34,11 @@ label {
   color: rgb(34, 34, 34);
 }
 
-.btn{
-  margin-top: 10px;
+/* .btn1{
+  background: #27ae60;
   height: 40px;
-}
+  border-radius: 15px;
+} */
 .but{
   margin-top: 10px;
   height: 40px;

@@ -26,9 +26,12 @@ const Header = () => {
             <h4>
         <span>2</span>My list
             </h4>
+            <Link to='/register'>
             <button className='btn1'>
-              <i className='fa fa-sign-out'></i> Sign In
+     <i className='fa fa-sign-out'></i> Sign In
             </button>
+            </Link>
+
           </div>
 
           <div className='toggle'>
