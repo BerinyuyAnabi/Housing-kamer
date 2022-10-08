@@ -13,8 +13,8 @@ export const nav = [
     path: "/services",
   },
   {
-    text: "dashboard",
-    path: "/dashboard",
+    text: "blog",
+    path: "/blog",
   },
   {
     text: "pricing",
@@ -361,8 +361,8 @@ export const detailedList = [
     category: "For Rents",
     price: "300,000Frs/yr",
     type: "Self Content Rooms",
-    details:
-      " This property has rooms and with internal toilets attached coupled to a constant water supply in the area with a public tap downstairs.",
+    details:  
+      " This property has rooms and with internal toilets attached coupled to a constant water supply in the area with a public tap downstairs. It is located beside the Presbyteranian church.",
   },
   {
     id: 5,

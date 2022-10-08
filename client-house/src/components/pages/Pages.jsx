@@ -16,25 +16,25 @@ import DashboardForm from './dashboard/DashboardForm';
 
 const Pages = () => {
   return (<>
-   <Router>
-        <Header/>
+    <Router>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-          <Route  path="*" exact element ={<PageNotFound />}/>
+        <Route path="*" exact element={<PageNotFound />} />
         <Route path="/details/:propertyId" exact element={<ListDetails />} />
-          <Route path='/dashboard' element={<DashboardForm/>}/>
-          <Route path='/login' element={<Login/>}/>
-          <Route path='/register' element={<Register/>}/>
-          <Route  path="/about"  element ={<About/>}/>
-          <Route path="/services"  exact element ={<Services/>}/>
-          <Route path="/pricing"  exact element ={<Price/>}/>
-          <Route path="/blog"  exact element ={<Blog/>}/>
-          <Route path="/contact"  exact element ={<Contact/>}/>
-        </Routes>
-        <Footer />
+        <Route path='/dashboard' element={<DashboardForm />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/register' element={<Register />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" exact element={<Services />} />
+        <Route path="/pricing" exact element={<Price />} />
+        <Route path="/blog" exact element={<Blog />} />
+        <Route path="/contact" exact element={<Contact />} />
+      </Routes>
+      <Footer />
     </Router>
-  </>) 
-  
+  </>)
+
 }
 
 export default Pages
