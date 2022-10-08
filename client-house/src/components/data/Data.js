@@ -362,7 +362,7 @@ export const detailedList = [
     price: "300,000Frs/yr",
     type: "Self Content Rooms",
     details:
-      " lorem ipfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      " This property has rooms and with internal toilets attached coupled to a constant water supply in the area with a public tap downstairs.",
   },
   {
     id: 5,
@@ -373,7 +373,7 @@ export const detailedList = [
     price: "400,000Frs/yr",
     type: "Single Room/studio",
     details:
-      " lorem ipfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      " It has an internal toilet, a room and a kitchen. It is located just about 15m from school and it is mostly inhabited by university students.",
   },
   {
     id: 6,
@@ -384,6 +384,5 @@ export const detailedList = [
     price: "240000Frs/yr",
     type: "Apartment/studio",
     details:
-      " lorem ipfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-  },
+      "This property is located in one of the cleanest quarters in town and has a constant water supply. It has 2 rooms, an internal toilet, a parlour with space to place a dinning table as well as the kitchen."},
 ];

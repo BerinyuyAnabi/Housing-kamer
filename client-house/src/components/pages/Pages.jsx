@@ -29,7 +29,7 @@ const Pages = () => {
           <Route path="/contact"  exact element ={<Contact/>}/>
         <Route path="/details/:propertyId" exact element={<ListDetails />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
     </Router>
   </>) 
   

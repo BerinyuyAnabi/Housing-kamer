@@ -11,7 +11,8 @@ const About = () => {
         <div className="content">
             <h1>Our Agency</h1>
             <div className="description flex">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum quae iste corrupti nobis dolor? Eum iure ea consequuntur ullam amet nulla odio. Minus perspiciatis debitis, quasi ratione non quisquam error expedita commodi officia nulla laboriosam libero et vitae facere recusandae ullam nemo. Vel, quasi impedit. Corporis fugit deserunt repellat? Eos.</p>
+                <p>We are technophiles, individuals passionate about community impact with respect to technology.
+                    We are currently studying to obtain a Bachelors Degree in technology related fields.</p>
                 <img src= {image} alt="" />
             </div>
             <button className="but">More About Us</button>
