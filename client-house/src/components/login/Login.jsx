@@ -33,7 +33,7 @@ const Login = () => {
                 Submit
               </button>
               <Link to='/register'>
-                <button className="but"> Register</button>
+                <button className="btn btn-primary"> Register</button>
               </Link>
             </div>
             <p className="forgot-password text-right mt-2">
