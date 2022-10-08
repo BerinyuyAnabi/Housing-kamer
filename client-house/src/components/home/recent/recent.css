@@ -23,10 +23,10 @@
   border-top: 1px solid #e4e8f3;
   padding: 10px 30px;
 }
-.recent .img{
+/* .recent .img{
   height: 250px;
   width: 350px;
-}
+} */
 .recent h4:hover{
 color: green;
 }
