@@ -1,20 +1,19 @@
-
 import React from "react"
+// import Heading from "../../common/Heading"
 import "./blog.css"
-import BlogCard from "./BlogCard.jsx"
+import BlogCard from "./BlogCard"
 
-const Recent = () => {
+const Blog = ({list}) => {
   return (
     <>
-      <section className='blog padding'>
+      <section className='recent padding'>
         <div className='container'>
-          <h1>Recent Property Listed</h1>
-          <h6> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h6>
-          <BlogCard />
+          {/* <Heading title='Welcome!!! Recent Hostels Listed' subtitle='We have new and well Tarnish houses here in our application in just a click you will get a house to rent and study at a good house rent price' /> */}
+          <BlogCard list={ list}/>
         </div>
       </section>
     </>
   )
 }
 
-export default Recent
+export default Blog
