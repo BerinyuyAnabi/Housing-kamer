@@ -94,7 +94,10 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon --watch server --exec node server/server.js",
+    "server":"nodemon server/server.js",
+    "client":"npm start --prefix client-house"
   },
   "repository": {
     "type": "git",
