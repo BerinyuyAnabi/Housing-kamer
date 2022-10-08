@@ -13,7 +13,7 @@ const Hero = () => {
   });
   
   const [input, setInput] = useState({
-  price: '',
+  price: 0,
   location: '',
     sortOrder: '',
     sortOrders: ['highestfirst', 'lowestfirst'],

@@ -12,22 +12,24 @@ import Contact from './contact/Contact';
 import Login from '../login/Login'
 import Register from '../register/Register'
 import ListDetails from './listdetails/ListDetails';
+import DashboardForm from './dashboard/DashboardForm';
 
 const Pages = () => {
   return (<>
    <Router>
         <Header/>
-        <Routes>
+      <Routes>
+        <Route path="/" element={<Home />} />
+          <Route  path="*" exact element ={<PageNotFound />}/>
+        <Route path="/details/:propertyId" exact element={<ListDetails />} />
+          <Route path='/dashboard' element={<DashboardForm/>}/>
           <Route path='/login' element={<Login/>}/>
           <Route path='/register' element={<Register/>}/>
-          <Route  path="*" exact element ={<PageNotFound />}/>
-          <Route  path="/"  element ={<Home />}/>
           <Route  path="/about"  element ={<About/>}/>
           <Route path="/services"  exact element ={<Services/>}/>
           <Route path="/pricing"  exact element ={<Price/>}/>
           <Route path="/blog"  exact element ={<Blog/>}/>
           <Route path="/contact"  exact element ={<Contact/>}/>
-        <Route path="/details/:propertyId" exact element={<ListDetails />} />
         </Routes>
         <Footer />
     </Router>
